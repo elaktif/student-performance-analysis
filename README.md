@@ -1,23 +1,32 @@
 # student-performance-analysis
-This project investigates the relationship between student demographics and academic performance using two public datasets. It is part of a Data Analysis Capstone Project for Code:You.
+## 📌 Project Overview
+
+This project investigates how academic performance is influenced by socio-demographic and lifestyle factors among high school students. It is part of the Data Analysis Capstone Project for Code:You.
+
+Using two real-world datasets from the UCI Machine Learning Repository, we compare student outcomes in Math and Portuguese language courses.  
+The project explores relationships between variables such as parental education, internet access, study time, and alcohol consumption, and their impact on students' final grades.
 
 ---
 
+
 ## 📊 Datasets Used
+### 1. Student Performance in Math
+- **Source**: UCI Machine Learning Repository  
+- **File**: `student-mat.csv`  
+- **Rows**: 395  
+- **Columns**: 33  
+- **Qualitative Variables**: gender, school, parent's jobs, address, internet access, etc.  
+- **Quantitative Variables**: age, absences, G1-G3 grades, study time, etc.
 
-### 1. Students Performance in Exams
-- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
-- **Rows**: ~2,392
-- **Columns**: 10+
-- **Qualitative Variables**: gender, race/ethnicity, parental education level, lunch type, test preparation
-- **Quantitative Variables**: math score, reading score, writing score
+### 2. Student Performance in Portuguese
+- **Source**: UCI Machine Learning Repository  
+- **File**: `student-por.csv`  
+- **Rows**: 649  
+- **Columns**: 33  
+- **Qualitative Variables**: similar to Math dataset  
+- **Quantitative Variables**: same structure – includes grades, absences, age, etc.
 
-### 2. High School Student Performance & Demographics
-- **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics)
-- **Rows**: 5,000+
-- **Columns**: 10+
-- **Qualitative Variables**: gender, parental education, school support, activities
-- **Quantitative Variables**: absences, age, study time, G1-G3 grades
+Both datasets share many columns and can be merged for deeper analysis.
 
 ---
 
@@ -33,7 +42,8 @@ This project investigates the relationship between student demographics and acad
 
 ## 📌 Objective
 
-To explore how different demographic factors—such as gender, parental education, and school support—affect students’ performance in academic tests.
+To analyze how factors such as parental background, study time, alcohol use, and internet access influence students' academic success in Math and Portuguese subjects. The project will also compare overall performance across both subjects and highlight any trends or disparities.
+
 
 ---
 
@@ -51,5 +61,6 @@ Key statistics and insights from the datasets.
 
 ## 🔗 Data Sources
 
-- [Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)
 - [High School Performance & Demographics](https://www.kaggle.com/datasets/dillonmyrick/high-school-student-performance-and-demographics)
+- [Student Performance – Math](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
+- [Student Performance – Portuguese](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
