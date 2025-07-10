@@ -44,29 +44,9 @@ To understand how things like family, school, and habits affect grades in Math a
 
 ---
 
- ## Data Dictionary (Some Columns)
+ 
 
-| Column           | Description               |
-| ---------------- | ------------------------- |
-| `school`         | School name               |
-| `sex`            | Gender (F/M)              |
-| `age`            | Age                       |
-| `address`        | Urban or rural            |
-| `famsize`        | Family size               |
-| `Pstatus`        | Parents together or apart |
-| `Medu`           | Mother’s education        |
-| `Fedu`           | Father’s education        |
-| `Mjob`           | Mother’s job              |
-| `Fjob`           | Father’s job              |
-| `studytime`      | Weekly study time         |
-| `failures`       | Past class failures       |
-| `internet`       | Has internet at home      |
-| `absences`       | Number of absences        |
-| `G1`, `G2`, `G3` | Grades for each period    |
-
----
-
- ## Data Summary (coming soon)
+ ## Data Summary
 
 I will include charts and summaries later as I finish the project.
 
